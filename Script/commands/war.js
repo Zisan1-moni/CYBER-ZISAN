@@ -5,8 +5,8 @@ module.exports.config = {
     credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
     description: "War in group boxchat",
     commandCategory: "group",
-    usages: "war",
-    cooldowns: 5,
+    usages: "bold war",
+    cooldowns: 10,
     dependencies: {
         "fs-extra": "",
         "axios": ""
@@ -20,32 +20,32 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("তোর জিসান আব্বুর চোদা লো!");
-setTimeout(() => {a({body: "খাংকির পোলা তর মারে চুদি  AMi ZISAN's-BOT 🥰" + " " + name, mentions: arraytag })}, 3000);
-setTimeout(() => {a({body: "খাংকির পোলা তর কচি বোন রে আমি জিসান চুদি  😍" + " " + name, mentions: arraytag })}, 5000);
-setTimeout(() => {a({body: "মাদারচোদ তর আম্মুর পম পম খাংকির পোলা আমি তোর বাপ জিসান 🐰" + " " + name, mentions: arraytag })}, 7000);
-setTimeout(() => {a({body: "খাংকির পোলা তর কচি ভুদায় ভুদায় কামর দিমু i Am তোর আব্বু জিসান 💔" + " " + name, mentions: arraytag })}, 9000);
-setTimeout(() => {a({body: "খাংকি মাগির পোলা কথা কম তর আম্মু রে চুদে বানামু আইটেম বোম?" + " " + name, mentions: arraytag })}, 12000);
-setTimeout(() => {a({body: "depression থেকেও তর মাইরে চু*** দি 🤬" + " " + name, mentions: arraytag })}, 15000);
-setTimeout(() => {a({body: "তর আম্মু রে আচার এর লোভ দেখি চুদি মাগির পোলা🤬" + " " + name, mentions: arraytag })}, 17000);
-setTimeout(() => {a({body: "বান্দির পোলা তর কচি বোনের ভুদা ফাক কর থুতু দিয়ে ভুদায় দন ডুকামু 🤟" + " " + name, mentions: arraytag })}, 20000);
-setTimeout(() => {a({body: "বান্দি মাগির পোলা তর আম্মু রে চুদি তর দুলা ভাই এর কান্দে ফেলে  Power OF Zisan's BoT🤝" + " " + name, mentions: arraytag })}, 23000);
-setTimeout(() => {a({body: "চুদা কি আরো খাবি মাগির পোল 🤖" + " " + name, mentions: arraytag })}, 25000);
-setTimeout(() => {a({body: "অনলাইনে গালি বাজ হয়ে গেছত মাগির পোলা এমন চুদা দিমু লাইফ টাইম মনে রাখভি তর বাপ জিসান মাগির ছেলে 😘" + " " + name, mentions: arraytag })}, 28500);
-setTimeout(() => {a({body: "বাতিজা শুন তর আম্মু রে চুদলে রাগ করবি না তো আচ্ছা জা রাগ করিস না তর আম্মুর কালা ভুদায় আর চুদলাম না তো বোন এর জামা টা খুলে দে  ✋" + " " + name, mentions: arraytag })}, 31000);
-setTimeout(() => {a({body: "আমার বস জিসান এর জারজ শন্তান🤖" + " " + name, mentions: arraytag })}, 36000);
-setTimeout(() => {a({body: "কুত্তার বাচ্ছা তর বৌন ভোদায় মাগুর মাছ চাষ করুম।😍." + " " + name, mentions: arraytag })}, 39000);
-setTimeout(() => {a({body: "বস্তির ছেলে তর মায়ের ভুদাতে পোকা।" + " " + name, mentions: arraytag })}, 40000);
-setTimeout(() => {a({body: "তর বোন ভোদা ছিল্লা লবণ লাগায় দিমু।" + " " + name, mentions: arraytag })}, 65000);
-setTimeout(() => {a({body: "খাঙ্কিরপোলা পোলা কথা শুন তর আম্মু রে চুদি গামছা পেচিয়ে🐰" + " " + name, mentions: arraytag })}, 70000);
-setTimeout(() => {a({body: "কান্দে ফালাইয়া তর মায়েরে চুদি💉" + " " + name, mentions: arraytag })}, 75000);
-setTimeout(() => {a({body: "টুকাই মাগির পোলা মোবাইল ভাইব্রেশন কইরা তুর কচি বোন এর পুকটিতে ভরবো।🤟" + " " + name, mentions: arraytag })}, 80000);
-setTimeout(() => {a({body: "জং ধরা লোহা দিয়া পাকিস্তানের মানচিত্র বানাই্য়া তোদের পিছন দিয়া ঢুকামু।🤬" + " " + name, mentions: arraytag })}, 85000);
-setTimeout(() => {a("উফফফ খাদ্দামা মাগির পোলা তর আম্মুর কালা ভুদায় আমার মাল আউট তর কচি বোন রে উপ্তা করে এবার চুদবো|💉"})} , 90000);
-setTimeout(() => {a({body: "খান্কি মাগির পোলা🤬🤬" + " " + name, mentions: arraytag })}, 95000);
-setTimeout(() => {a({body: "বস্তির ছেলে অনলাইনের কিং" + " " + name, mentions: arraytag })}, 100000);
-setTimeout(() => {a({body: "হিজলা মাগির পোলা কুত্তা দিয়া চুদমু তরে খাঙ্কির পোলা!তর মাকে।  ✋" + " " + name, mentions: arraytag })}, 105000);
-setTimeout(() => {a({body: "আমার বস জিসান এর জারজ পুত। জা ভাগ🤖" + " " + name, mentions: arraytag})} , 115000);
+a("Listen to your father, kids !");
+setTimeout(() => {a({body: "F*ck your mother" + " " + name, mentions: arraytag })}, 3000);
+setTimeout(() => {a({body: "You little brats come out to listen to your father curse"})}, 5000);
+setTimeout(() => {a({body: "Quick show the dogs" })}, 7000);
+setTimeout(() => {a({body: "Show your father's soul" })}, 9000);
+setTimeout(() => {a({body: "Do you guys like war so much?" })}, 12000);
+setTimeout(() => {a({body: "Damn you guys too" })}, 15000);
+setTimeout(() => {a({body: "Give your father the age of war" })}, 17000);
+setTimeout(() => {a({body: "Hurry up and curse each other with me" })}, 20000);
+setTimeout(() => {a({body: "Are the bad boys wrinkling their noses up to wage war on your father?" })}, 23000);
+setTimeout(() => {a({body: "I fuck your mother" })}, 25000);
+setTimeout(() => {a({body: "Delicious then yawn your mother up" })}, 28500);
+setTimeout(() => {a({body: "Your father shot you to death by rapping" })}, 31000);
+setTimeout(() => {a({body: "Please age eat me ?" })}, 36000);
+setTimeout(() => {a({body: "If it's delicious, eat your dad" })}, 39000);
+setTimeout(() => {a({body: "Before that, please give me a break for 1 minute" })}, 40000);
+setTimeout(() => {a({body: "Please allow me to start" })}, 65000);
+setTimeout(() => {a({body: "First of all, I would like to fuck you from top to bottom" })}, 70000);
+setTimeout(() => {a({body: "I fuck from cunt hole to pussy cleavage" })}, 75000);
+setTimeout(() => {a({body: "The cunt is as big as a buffalo's cunt masturbating a sewer pipe" })}, 80000);
+setTimeout(() => {a({body: "I'm sure 2 guys like me aren't enough to fill your ass hole" })}, 85000);
+setTimeout(() => {a("I'm tired and don't curse anymore")} , 90000);
+setTimeout(() => {a({body: "Come on boss update the lyric, let's continue the war" })}, 95000);
+setTimeout(() => {a({body: "Thank you for listening to me war" })}, 100000);
+setTimeout(() => {a({body: "Goodbye and see you in the next program" })}, 105000);
+setTimeout(() => {a({body: "Good bye 🥺"})} , 115000);
 
 
 
