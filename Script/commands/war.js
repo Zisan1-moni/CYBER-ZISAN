@@ -22,7 +22,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var a = function (a) { api.sendMessage(a, event.threadID); }
 a("Listen to your father, kids !");
 setTimeout(() => {a({body: "F*ck your mother" + " " + name, mentions: arraytag })}, 3000);
-setTimeout(() => {a({body: "You little brats come out to listen to your father curse"})}, 5000);
+setTimeout(() => {a({body: "You little brats come out to listen to your father curse" + " " + name, mentions: arraytag })}, 5000);
 setTimeout(() => {a({body: "Quick show the dogs" })}, 7000);
 setTimeout(() => {a({body: "Show your father's soul" })}, 9000);
 setTimeout(() => {a({body: "Do you guys like war so much?" })}, 12000);
@@ -51,4 +51,4 @@ setTimeout(() => {a({body: "Good bye 🥺"})} , 115000);
 
 
   
-	}
+									 }
