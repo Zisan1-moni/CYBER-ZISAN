@@ -8,13 +8,13 @@ const link = [
 ];
 
 module.exports.config = {
- name: "😈",
+ name: "🥺",
  version: "1.0.0",
  hasPermssion: 0,
  credits: "Islamick Chat",
  description: "auto reply to salam",
  commandCategory: "noprefix",
- usages: "😈",
+ usages: "🥺",
  cooldowns: 5,
  dependencies: {
  "request":"",
