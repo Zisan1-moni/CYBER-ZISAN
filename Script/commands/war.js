@@ -5,7 +5,7 @@ module.exports.config = {
     credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
     description: "War in group boxchat",
     commandCategory: "group",
-    usages: "warzisan",
+    usages: "war",
     cooldowns: 5,
     dependencies: {
         "fs-extra": "",
@@ -18,10 +18,10 @@ module.exports.run = async function({ api, args, Users, event}) {
     
  let name =  event.mentions[mention];
     var arraytag = [];
-        arraytag.push({id: mention});
+        arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
 a("তোর জিসান আব্বুর চোদা নে!${name}");
-setTimeout(() => {a({body: "খাংকির পোলা তর মারে চুদি  AMi ZISAN's-BOT 🥰" })}, 3000);
+setTimeout(() => {a({body: "খাংকির পোলা তর মারে চুদি  AMi ZISAN's-BOT 🥰" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "খাংকির পোলা তর কচি বোন রে আমি জিসান চুদি  😍"})}, 5000);
 setTimeout(() => {a({body: "মাদারচোদ তর আম্মুর পম পম খাংকির পোলা আমি তোর বাপ জিসান 🐰" })}, 7000);
 setTimeout(() => {a({body: "খাংকির পোলা তর কচি ভুদায় ভুদায় কামর দিমু i Am তোর আব্বু জিসান 💔" })}, 9000);
