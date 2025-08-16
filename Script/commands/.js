@@ -3,18 +3,18 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
- "https://i.imgur.com/GIYW9Qh.mp4",
+ ""https://i.imgur.com/QOsA7uO.mp4",",
 
 ];
 
 module.exports.config = {
- name: "🥺",
+ name: "😈",
  version: "1.0.0",
  hasPermssion: 0,
  credits: "Islamick Chat",
  description: "auto reply to salam",
  commandCategory: "noprefix",
- usages: "🥺",
+ usages: "😈",
  cooldowns: 5,
  dependencies: {
  "request":"",
@@ -26,10 +26,10 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
- if (body.startsWith("🥺")) {
+ if (body.startsWith("😈")) {
  const rahad = [
- "╭•┄┅════❁🌺❁════┅┄•╮\n \n I Miss You Really-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯",
- "╭•┄┅════❁🌺❁════┅┄•╮\n\nI Miss You Really-!!🥺\n\n╰•┄┅════❁🌺❁════┅┄•╯"
+ "╭•┄┅════❁🌺❁════┅┄•╮\n \n DEVIL ZISAN -!!😈\n\n╰•┄┅════❁🌺❁════┅┄•╯",
+ "╭•┄┅════❁🌺❁════┅┄•╮\n\n DEVIL ZISAN 🤧-!!😈\n\n╰•┄┅════❁🌺❁════┅┄•╯"
 
  ];
  const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
@@ -61,9 +61,9 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
  const { threadID, messageID } = event;
  let data = (await Threads.getData(threadID)).data;
- if (typeof data["🥺"] === "undefined" || data["🥺"]) data["🥺"] = false;
- else data["🥺"] = true;
+ if (typeof data["😈"] === "undefined" || data["😈"]) data["😈"] = false;
+ else data["😈"] = true;
  await Threads.setData(threadID, { data });
  global.data.threadData.set(threadID, data);
- api.sendMessage(`${(data["🥺"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
+ api.sendMessage(`${(data["😈"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
 };
