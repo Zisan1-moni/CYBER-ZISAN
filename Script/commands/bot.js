@@ -91,7 +91,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Assalamualaikum Boss My Creator. How Are You? I hope you are very well🥰🫡", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Pakhi Chowdhury▁▁╱╱🩵🪿🩷🪽 ") || (event.body.toLowerCase() == "Moni")) {
+   if ((event.body.toLowerCase() == "@Pakhi Chowdhury▁▁╱╱🩵🪿🩷🪽") || (event.body.toLowerCase() == "moni")) {
      return api.sendMessage("Don't Call Her She is my boss 𝐙𝐈𝐒𝐀𝐍's Wife.And also my mam.😠🥰⛏️", threadID);
    };
 
@@ -160,11 +160,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "gf") || (event.body.toLowerCase() == "bf")) {
-     return api.sendMessage("খালি কি তোরাই পেম করবি আমাকেও একটা গফ দে<🥺", threadID);
+     return api.sendMessage("https://i.imgur.com/Ip02wbj.mp4", threadID);
    };
    
    if ((event.body.toLowerCase() == "😂") || (event.body.toLowerCase() == "😁") || (event.body.toLowerCase() == "😆") || (event.body.toLowerCase() == "🤣") || (event.body.toLowerCase() == "😸") || (event.body.toLowerCase() == "😹")) {
-     return api.sendMessage("ভাই তুই এত হাসিস না হাসলে তোরে পাগলের মত লাগে..!🌚🤣", threadID);
+     return api.sendMessage("ভাই তুই এত হাসিস না হাসলে তোরে পাগলের মত লাগে..!🌚🤣""https://i.imgur.com/wIyX5fd.mp4", threadID);
    };
 
    if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😍") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "❤️")) {
