@@ -47,7 +47,7 @@ module.exports.run = async function({ api, event, Users }) {
 🆔 Facebook ID: ${ownerID}
 📱 WhatsApp   : 01931411945
 💻 Bot        : 🅰🅸 🅰🆂🅸🆂🆃🅰🅽🆃⚠️
-
+🔗 Fork Link  : https://github.com/Zisan1-moni/CYBER-ZISAN
 ⏰ Active Time: ${hours}h ${minutes}m ${seconds}s
 
 🌟 Thanks for using the bot!
