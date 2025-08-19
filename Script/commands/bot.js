@@ -53,7 +53,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "tor ball") || (event.body.toLowerCase() == "bal")) {
-     return api.sendMessage("~ বাল উঠে নাই নাকি তোমার?? 🤖", threadID);
+     return api.sendMessage("https://github.com/Zisan1-moni/CYBER-ZISAN", threadID);
    };
 
   if ((event.body.toLowerCase() == "Zisan") || (event.body.toLowerCase() == "Zisan vi") || (event.body.toLowerCase() == "জিসান") || (event.body.toLowerCase() == "জিসান ভাই")) {
