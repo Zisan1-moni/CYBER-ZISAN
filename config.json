@@ -5,7 +5,7 @@
     "autoCreateDB": true,
     "notiGroup": true,
     "NOTIFICATION": true,
-    "allowInbox": false,
+    "allowInbox": true,
     "autoClean": true,
     "commandDisabled": [
         "sim.js"
@@ -16,8 +16,8 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "➠⎯͢⎯⃝ ⋆⃝🅰🅸 🅰🆂🅸🆂🆃🅰🅽🆃☠️⋆⃝─•᭄",
-    "PREFIX": "!",
+    "BOTNAME": "➠⎯͢⎯⃝ ⋆⃝Zisan☠️⋆⃝─•᭄",
+    "PREFIX": ".",
     "ADMINBOT": [
         "61556634482208",
         "100079776818351",
