@@ -44,7 +44,7 @@ ${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
 𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :☢️_𖣘 🅰🅸 🅰🆂🅸🆂🆃🅰🅽🆃-⚠️
 
 \n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆
-`, attachment: fs.createReadStream(__dirname + "/cache/ullash.mp4")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "https://i.imgur.com/6IxDkLp.mp4")} ,threadID));
     }
     else {
         try {
