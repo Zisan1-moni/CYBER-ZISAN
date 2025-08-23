@@ -44,7 +44,7 @@ ${global.config.PREFIX}Help\n${global.config.PREFIX} Manu
 𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 :☢️_𖣘 🅰🅸 🅰🆂🅸🆂🆃🅰🅽🆃-⚠️
 
 \n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆
-`, attachment:"https://i.imgur.com/6IxDkLp.mp4",
+`, varlink:"https://i.imgur.com/6IxDkLp.mp4",
     }
     else {
         try {
