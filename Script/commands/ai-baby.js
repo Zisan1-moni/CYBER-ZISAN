@@ -33,14 +33,14 @@ module.exports.run = async function ({ api, event, args }) {
     // অটো-রিপ্লাই চালু করার জন্য
     if (userMessage.toLowerCase() === "on") {
         autoReplyEnabled[senderID] = true;
-        return api.sendMessage("ঠিক আছে! 😘 অটো-রিপ্লাই মোড **ON** করা হলো...", threadID, messageID);
+        return api.sendMessage("আমি তোমার ব্যক্তিগত Ai Asistant ! 😘 অটো-রিপ্লাই মোড **ON** করলাম...", threadID, messageID);
     }
 
     // অটো-রিপ্লাই বন্ধ করার জন্য
     if (userMessage.toLowerCase() === "off") {
         autoReplyEnabled[senderID] = false;
         chatHistories[senderID] = [];
-        return api.sendMessage("আচ্ছা... 😒 অটো-রিপ্লাই মোড **OFF** করা হলো...", threadID, messageID);
+        return api.sendMessage("কথা বলতে ভালো লাগতেছে না সরাসরি বলে দিবা অটো রিপ্লাই অফ করতে বলতে হবে কেনো... 😒 আচ্ছা তারপর ও অটো-রিপ্লাই মোড **OFF** করলাম...", threadID, messageID);
     }
 
     if (!autoReplyEnabled[senderID] && event.body.toLowerCase().indexOf(this.config.name) !== 0) {
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args }) {
 
         const response = await axios.post(API_URL, data);
 
-        let botReply = "দুঃখিত! আমি ঠিক বুঝতে পারিনি। 😕";
+        let botReply = "বাল! এতো দেরি করে রিপ্লাই দেও কেনো। 😕";
 
         if (response.data.candidates && response.data.candidates.length > 0 && response.data.candidates[0].content) {
             botReply = response.data.candidates[0].content.parts[0].text;
@@ -96,7 +96,7 @@ module.exports.run = async function ({ api, event, args }) {
 
     } catch (error) {
         console.error("Gemini API Error:", error.response ? error.response.data.error.message : error.message);
-        api.sendMessage("উফ! 😔 আমার বুঝতে একটু সমস্যা হচ্ছে... সম্ভবত এপিআই কী-তে কোনো সমস্যা হয়েছে।", threadID, messageID);
+        api.sendMessage("উফ! 😔 কি যে বাল বলো আমার বুঝতে একটু সমস্যা হচ্ছে... সম্ভবত এপিআই কী-তে কোনো সমস্যা হয়েছে।", threadID, messageID);
         api.setMessageReaction("❌", messageID, () => {}, true);
     }
 };
