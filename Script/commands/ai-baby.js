@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 module.exports.config = {
-    name: "silly", // কমান্ডের নাম
+    name: "pakhi", // কমান্ডের নাম
     version: "1.1.0",
     hasPermssion: 0,
     credits: "Mirrykal (Fixed & Modified by Gemini)",
